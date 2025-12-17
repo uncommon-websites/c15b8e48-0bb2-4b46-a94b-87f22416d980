@@ -1,24 +1,12 @@
-<script>
+<script lang="ts">
   import Navbar from '$lib/components/Navbar.svelte';
-  import Hero from '$lib/components/Hero.svelte';
-  import Logos from '$lib/components/Logos.svelte';
-  import WhyUs from '$lib/components/WhyUs.svelte';
-  import Products from '$lib/components/Products.svelte';
-  import Founders from '$lib/components/Founders.svelte';
-  import FAQ from '$lib/components/FAQ.svelte';
-  import BottomCTA from '$lib/components/BottomCTA.svelte';
+  import ChatInterface from '$lib/components/ChatInterface.svelte';
   import Footer from '$lib/components/Footer.svelte';
 </script>
 
-<div class="min-h-screen bg-[#f5f5f5] font-sans selection:bg-primary-600 selection:text-white">
+<div class="min-h-screen font-sans selection:bg-primary-600 selection:text-white" style="background: var(--dark-bg);">
   <Navbar />
-  <Hero />
-  <Logos />
-  <WhyUs />
-  <Products />
-  <Founders />
-  <FAQ />
-  <BottomCTA />
+  <ChatInterface />
   <Footer />
 </div>
 

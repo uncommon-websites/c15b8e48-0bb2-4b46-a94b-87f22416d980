@@ -41,3 +41,37 @@
 	--font-body: var(--font-family), var(--font-fallback);
 	--font-display: var(--font-body);
 }
+
+/* Dark theme custom properties */
+:root {
+	--dark-bg: oklch(0.15 0.005 286);
+	--dark-surface: oklch(0.18 0.006 286);
+	--dark-surface-elevated: oklch(0.22 0.008 286);
+	--dark-border: oklch(0.25 0.01 286);
+	--dark-text-primary: oklch(0.95 0.002 286);
+	--dark-text-secondary: oklch(0.65 0.01 286);
+	--dark-text-tertiary: oklch(0.45 0.012 286);
+}
+
+/* Smooth scrolling for chat */
+.chat-scroll {
+	scrollbar-width: thin;
+	scrollbar-color: var(--dark-border) transparent;
+}
+
+.chat-scroll::-webkit-scrollbar {
+	width: 6px;
+}
+
+.chat-scroll::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+.chat-scroll::-webkit-scrollbar-thumb {
+	background: var(--dark-border);
+	border-radius: 3px;
+}
+
+.chat-scroll::-webkit-scrollbar-thumb:hover {
+	background: var(--dark-surface-elevated);
+}

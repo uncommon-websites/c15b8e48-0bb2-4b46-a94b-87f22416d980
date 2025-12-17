@@ -1,49 +1,49 @@
-<footer class="bg-black text-white px-6 py-16 text-sm">
+<footer class="px-6 py-16 text-sm border-t" style="background: var(--dark-surface); color: var(--dark-text-primary); border-color: var(--dark-border);">
   <div class="max-w-[1400px] mx-auto">
     <div class="grid grid-cols-2 md:grid-cols-5 gap-12 mb-24">
       <!-- Col 1 -->
       <div class="flex flex-col gap-4">
-        <h4 class="text-gray-500 mb-2">Product —</h4>
-        <a href="/" class="hover:text-gray-300">Features</a>
-        <a href="/" class="hover:text-gray-300">Pricing</a>
-        <a href="/" class="hover:text-gray-300">API Access</a>
+        <h4 class="mb-2" style="color: var(--dark-text-tertiary);">Product —</h4>
+        <a href="/" class="hover:text-primary-400 transition-colors" style="color: var(--dark-text-secondary);">Features</a>
+        <a href="/" class="hover:text-primary-400 transition-colors" style="color: var(--dark-text-secondary);">Pricing</a>
+        <a href="/" class="hover:text-primary-400 transition-colors" style="color: var(--dark-text-secondary);">API Access</a>
       </div>
 
       <!-- Col 2 -->
       <div class="flex flex-col gap-4">
-        <h4 class="text-gray-500 mb-2">Resources —</h4>
-        <a href="/" class="hover:text-gray-300">Documentation</a>
-        <a href="/" class="hover:text-gray-300">Discord Community</a>
-        <a href="/" class="hover:text-gray-300">Blog</a>
+        <h4 class="mb-2" style="color: var(--dark-text-tertiary);">Resources —</h4>
+        <a href="/" class="hover:text-primary-400 transition-colors" style="color: var(--dark-text-secondary);">Documentation</a>
+        <a href="/" class="hover:text-primary-400 transition-colors" style="color: var(--dark-text-secondary);">Discord Community</a>
+        <a href="/" class="hover:text-primary-400 transition-colors" style="color: var(--dark-text-secondary);">Blog</a>
       </div>
 
       <!-- Col 3 -->
       <div class="flex flex-col gap-4">
-        <h4 class="text-gray-500 mb-2">Company —</h4>
-        <a href="/" class="hover:text-gray-300">About</a>
-        <a href="/" class="hover:text-gray-300">Support</a>
-        <a href="/" class="hover:text-gray-300">Contact</a>
+        <h4 class="mb-2" style="color: var(--dark-text-tertiary);">Company —</h4>
+        <a href="/" class="hover:text-primary-400 transition-colors" style="color: var(--dark-text-secondary);">About</a>
+        <a href="/" class="hover:text-primary-400 transition-colors" style="color: var(--dark-text-secondary);">Support</a>
+        <a href="/" class="hover:text-primary-400 transition-colors" style="color: var(--dark-text-secondary);">Contact</a>
       </div>
 
       <!-- Col 4 -->
       <div class="flex flex-col gap-4">
-        <h4 class="text-gray-500 mb-2">Legal —</h4>
+        <h4 class="mb-2" style="color: var(--dark-text-tertiary);">Legal —</h4>
         <div class="flex flex-col gap-2">
-          <a href="/" class="text-gray-600 hover:text-gray-400">Terms of Service</a>
-          <a href="/" class="text-gray-600 hover:text-gray-400">Privacy Policy</a>
-          <a href="/" class="text-gray-600 hover:text-gray-400">Cookie Policy</a>
+          <a href="/" class="hover:text-primary-400 transition-colors" style="color: var(--dark-text-tertiary);">Terms of Service</a>
+          <a href="/" class="hover:text-primary-400 transition-colors" style="color: var(--dark-text-tertiary);">Privacy Policy</a>
+          <a href="/" class="hover:text-primary-400 transition-colors" style="color: var(--dark-text-tertiary);">Cookie Policy</a>
         </div>
       </div>
 
       <!-- Col 5 (Contact) -->
       <div class="flex flex-col gap-4 items-start md:items-end">
-        <a href="mailto:support@pumporacle.ai" class="font-medium border-b border-white pb-0.5 hover:opacity-80">support@pumporacle.ai</a>
-        <a href="/" class="font-medium border-b border-white pb-0.5 hover:opacity-80">@pumporacle</a>
+        <a href="mailto:support@pumporacle.ai" class="font-medium border-b pb-0.5 hover:text-primary-400 transition-colors" style="color: var(--dark-text-primary); border-color: var(--dark-text-primary);">support@pumporacle.ai</a>
+        <a href="/" class="font-medium border-b pb-0.5 hover:text-primary-400 transition-colors" style="color: var(--dark-text-primary); border-color: var(--dark-text-primary);">@pumporacle</a>
       </div>
     </div>
 
     <!-- Bottom Legal Text -->
-    <div class="border-t border-gray-900 pt-12 text-[11px] text-gray-600 leading-relaxed flex flex-col gap-6">
+    <div class="border-t pt-12 text-[11px] leading-relaxed flex flex-col gap-6" style="border-color: var(--dark-border); color: var(--dark-text-tertiary);">
       <p>
         Pump Oracle provides AI-powered analysis and risk assessment tools for cryptocurrency tokens. The information provided is for educational and informational purposes only and should not be considered financial advice.
       </p>
@@ -55,8 +55,8 @@
       </p>
     </div>
 
-    <div class="mt-12 flex items-center gap-4 text-xs text-gray-500">
-      <div class="flex items-center gap-1 font-bold text-white tracking-wide">
+    <div class="mt-12 flex items-center gap-4 text-xs" style="color: var(--dark-text-tertiary);">
+      <div class="flex items-center gap-1 font-bold tracking-wide" style="color: var(--dark-text-primary);">
         <div class="w-[2px] h-3 bg-primary-500"></div>
         PUMP ORACLE
       </div>
