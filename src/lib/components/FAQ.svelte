@@ -7,13 +7,13 @@
   }
 
   const faqs: FAQItem[] = [
-    { question: "Do I have to trust the lead investor with my investment?", answer: "Details about trust and lead investors..." },
-    { question: "How does Echo work?", answer: "Echo works by connecting..." },
-    { question: "I want to share my deals. Can I start a group?", answer: "Yes, you can start a group by..." },
-    { question: "I'm a founder. How do I raise money from Echo?", answer: "Founders can raise money by..." },
-    { question: "Is everyone eligible to use Echo?", answer: "Eligibility depends on..." },
-    { question: "Why do founders raise from Echo groups?", answer: "Founders choose Echo because..." },
-    { question: "Why would someone share their deals with me?", answer: "Sharing deals allows for..." }
+    { question: "How does Pump Oracle's AI analysis work?", answer: "Pump Oracle uses advanced machine learning algorithms to analyze token contracts, holder patterns, trading volume, social sentiment, and historical data from Pump.fun. Our AI oracle processes thousands of data points in real-time to generate comprehensive risk scores and trend predictions." },
+    { question: "What makes Pump Oracle different from DEXTools or BubbleMaps?", answer: "While other tools provide raw data visualization, Pump Oracle delivers instant AI-powered insights and actionable recommendations. Our specialized oracle focuses specifically on Pump.fun tokens, providing faster analysis and higher accuracy for scam detection compared to general-purpose tools." },
+    { question: "How accurate is the scam detection?", answer: "Our AI achieves a 95% accuracy rate in identifying scam tokens and rug pulls. The system continuously learns from new patterns and is updated daily with the latest scam techniques observed across Pump.fun and other platforms." },
+    { question: "Can I integrate Pump Oracle into my trading bot?", answer: "Yes! We offer a comprehensive API that allows developers to integrate our AI analysis into trading bots, Discord servers, Telegram groups, or custom applications. API access is available on our Pro and Enterprise plans." },
+    { question: "What is the pricing for Pump Oracle?", answer: "We offer a free trial with limited analyses per day. Paid plans start at $29/month for individual traders with unlimited analyses, and scale up to Enterprise plans for API access and high-volume usage." },
+    { question: "How fast are the analyses?", answer: "Most token analyses are completed in under 3 seconds. Our AI-specialized oracle infrastructure is designed to handle 100K+ analyses daily while maintaining sub-second response times for critical risk assessments." },
+    { question: "Do you support tokens beyond Pump.fun?", answer: "Currently, Pump Oracle is optimized specifically for Pump.fun tokens on Solana. We're expanding to support other DEXs and chains based on community demand. Join our Discord to vote on which platforms we should add next." }
   ];
 
   let openIndex: number | null = null;
