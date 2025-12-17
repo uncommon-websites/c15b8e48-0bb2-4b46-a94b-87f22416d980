@@ -14,49 +14,149 @@
 	--color-gray-900: oklch(0.21 0.006 285.885);
 	--color-gray-950: oklch(0.141 0.005 285.823);
 
-	--color-primary-50: oklch(0.979 0.021 166.113);
-	--color-primary-100: oklch(0.95 0.052 163.051);
-	--color-primary-200: oklch(0.905 0.093 164.15);
-	--color-primary-300: oklch(0.845 0.143 164.978);
-	--color-primary-400: oklch(0.765 0.177 163.223);
-	--color-primary-500: oklch(0.696 0.17 162.48);
-	--color-primary-600: oklch(0.596 0.145 163.225);
-	--color-primary-700: oklch(0.508 0.118 165.612);
-	--color-primary-800: oklch(0.432 0.095 166.913);
-	--color-primary-900: oklch(0.378 0.077 168.94);
-	--color-primary-950: oklch(0.262 0.051 172.552);
+	/* Futuristic Neon Primary Colors - Electric Blue/Cyan */
+	--color-primary-50: oklch(0.98 0.03 240);
+	--color-primary-100: oklch(0.95 0.06 240);
+	--color-primary-200: oklch(0.90 0.12 240);
+	--color-primary-300: oklch(0.85 0.18 240);
+	--color-primary-400: oklch(0.75 0.22 240);
+	--color-primary-500: oklch(0.65 0.25 240);
+	--color-primary-600: oklch(0.55 0.22 240);
+	--color-primary-700: oklch(0.45 0.18 240);
+	--color-primary-800: oklch(0.35 0.14 240);
+	--color-primary-900: oklch(0.25 0.10 240);
+	--color-primary-950: oklch(0.15 0.06 240);
 
-	--color-secondary-50: oklch(97% 0.015 30);
-	--color-secondary-100: oklch(92% 0.02 30);
-	--color-secondary-200: oklch(86% 0.03 30);
-	--color-secondary-300: oklch(80% 0.04 30);
-	--color-secondary-400: oklch(74% 0.05 30);
-	--color-secondary-500: oklch(68% 0.06 30);
-	--color-secondary-600: oklch(60% 0.07 30);
-	--color-secondary-700: oklch(52% 0.08 30);
-	--color-secondary-800: oklch(40% 0.09 30);
-	--color-secondary-900: oklch(30% 0.1 30);
-	--color-secondary-950: oklch(20% 0.11 30);
+	/* Futuristic Secondary Colors - Purple/Magenta */
+	--color-secondary-50: oklch(0.98 0.03 310);
+	--color-secondary-100: oklch(0.92 0.08 310);
+	--color-secondary-200: oklch(0.86 0.14 310);
+	--color-secondary-300: oklch(0.80 0.18 310);
+	--color-secondary-400: oklch(0.70 0.22 310);
+	--color-secondary-500: oklch(0.60 0.24 310);
+	--color-secondary-600: oklch(0.50 0.22 310);
+	--color-secondary-700: oklch(0.40 0.18 310);
+	--color-secondary-800: oklch(0.30 0.14 310);
+	--color-secondary-900: oklch(0.22 0.10 310);
+	--color-secondary-950: oklch(0.15 0.06 310);
+
+	/* Accent Colors - Pink/Neon */
+	--color-accent-50: oklch(0.98 0.03 340);
+	--color-accent-100: oklch(0.92 0.08 340);
+	--color-accent-200: oklch(0.86 0.14 340);
+	--color-accent-300: oklch(0.80 0.18 340);
+	--color-accent-400: oklch(0.70 0.22 340);
+	--color-accent-500: oklch(0.60 0.24 340);
+	--color-accent-600: oklch(0.50 0.22 340);
+	--color-accent-700: oklch(0.40 0.18 340);
+	--color-accent-800: oklch(0.30 0.14 340);
+	--color-accent-900: oklch(0.22 0.10 340);
+	--color-accent-950: oklch(0.15 0.06 340);
 
 	--font-body: var(--font-family), var(--font-fallback);
 	--font-display: var(--font-body);
 }
 
-/* Dark theme custom properties */
+/* Dark theme custom properties with futuristic colors */
 :root {
-	--dark-bg: oklch(0.15 0.005 286);
-	--dark-surface: oklch(0.18 0.006 286);
-	--dark-surface-elevated: oklch(0.22 0.008 286);
-	--dark-border: oklch(0.25 0.01 286);
-	--dark-text-primary: oklch(0.95 0.002 286);
-	--dark-text-secondary: oklch(0.65 0.01 286);
-	--dark-text-tertiary: oklch(0.45 0.012 286);
+	--dark-bg: oklch(0.12 0.015 260);
+	--dark-surface: oklch(0.15 0.018 260);
+	--dark-surface-elevated: oklch(0.18 0.022 260);
+	--dark-border: oklch(0.25 0.025 260);
+	--dark-text-primary: oklch(0.98 0.005 260);
+	--dark-text-secondary: oklch(0.70 0.015 260);
+	--dark-text-tertiary: oklch(0.50 0.018 260);
+	
+	/* Neon glow colors */
+	--neon-blue: oklch(0.65 0.25 240);
+	--neon-purple: oklch(0.60 0.24 310);
+	--neon-pink: oklch(0.60 0.24 340);
+	--neon-cyan: oklch(0.70 0.20 200);
+}
+
+/* Futuristic animations */
+@keyframes float {
+	0%, 100% { transform: translateY(0px); }
+	50% { transform: translateY(-20px); }
+}
+
+@keyframes pulse-glow {
+	0%, 100% { opacity: 1; filter: blur(20px); }
+	50% { opacity: 0.6; filter: blur(30px); }
+}
+
+@keyframes gradient-shift {
+	0% { background-position: 0% 50%; }
+	50% { background-position: 100% 50%; }
+	100% { background-position: 0% 50%; }
+}
+
+@keyframes neon-flicker {
+	0%, 100% { opacity: 1; }
+	50% { opacity: 0.8; }
+}
+
+@keyframes rotate-slow {
+	from { transform: rotate(0deg); }
+	to { transform: rotate(360deg); }
+}
+
+/* Animated gradient background */
+.animated-gradient-bg {
+	background: linear-gradient(135deg, 
+		var(--dark-bg) 0%, 
+		oklch(0.14 0.025 260) 25%,
+		oklch(0.12 0.030 240) 50%,
+		oklch(0.13 0.028 280) 75%,
+		var(--dark-bg) 100%
+	);
+	background-size: 400% 400%;
+	animation: gradient-shift 15s ease infinite;
+}
+
+/* Neon glow effect */
+.neon-glow {
+	box-shadow: 
+		0 0 10px var(--neon-blue),
+		0 0 20px var(--neon-blue),
+		0 0 40px var(--neon-blue);
+}
+
+.neon-glow-purple {
+	box-shadow: 
+		0 0 10px var(--neon-purple),
+		0 0 20px var(--neon-purple),
+		0 0 40px var(--neon-purple);
+}
+
+.neon-glow-pink {
+	box-shadow: 
+		0 0 10px var(--neon-pink),
+		0 0 20px var(--neon-pink),
+		0 0 40px var(--neon-pink);
+}
+
+/* Glass morphism */
+.glass-morph {
+	background: rgba(255, 255, 255, 0.05);
+	backdrop-filter: blur(10px);
+	border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Gradient text */
+.gradient-text {
+	background: linear-gradient(135deg, var(--neon-cyan), var(--neon-blue), var(--neon-purple), var(--neon-pink));
+	background-size: 300% 300%;
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: gradient-shift 8s ease infinite;
 }
 
 /* Smooth scrolling for chat */
 .chat-scroll {
 	scrollbar-width: thin;
-	scrollbar-color: var(--dark-border) transparent;
+	scrollbar-color: var(--neon-blue) transparent;
 }
 
 .chat-scroll::-webkit-scrollbar {
@@ -68,10 +168,11 @@
 }
 
 .chat-scroll::-webkit-scrollbar-thumb {
-	background: var(--dark-border);
+	background: var(--neon-blue);
 	border-radius: 3px;
 }
 
 .chat-scroll::-webkit-scrollbar-thumb:hover {
-	background: var(--dark-surface-elevated);
+	background: var(--neon-cyan);
+	box-shadow: 0 0 10px var(--neon-blue);
 }

@@ -4,7 +4,7 @@
   import Footer from '$lib/components/Footer.svelte';
 </script>
 
-<div class="min-h-screen font-sans selection:bg-primary-600 selection:text-white" style="background: var(--dark-bg);">
+<div class="min-h-screen font-sans selection:bg-primary-400 selection:text-white animated-gradient-bg">
   <Navbar />
   <ChatInterface />
   <Footer />
